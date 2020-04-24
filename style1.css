@@ -1,6 +1,7 @@
 
  body{
- 	margin: 30px; padding: 20px; 
+ 	margin: 30px; padding: 20px;
+
  }
 
 div.welcome-message{
@@ -17,12 +18,26 @@ p.para1{
     text-align: justify;
     
 }
-nav.a {
-	font-family: sans-serif;
-    font-size: 20px;
-    font-weight:bold;
-    text-align: left;
-    font-color: black;
+ul {
+  list-style-type: bengali;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  background-color: transparent;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: all;
+  font-size: 20px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color:#555;
+  color: white;
 }
 div.heading1{
     font-family: sans-serif;
@@ -41,5 +56,14 @@ div.poem{
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+ 
   margin-bottom: 50px;
-} 
+}
+table th, td {
+   text-align: center; 
+}
+
+table.table {
+   margin: auto;
+   width: 70% !important; 
+}

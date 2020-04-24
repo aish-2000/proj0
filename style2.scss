@@ -1,0 +1,84 @@
+
+ $myfontweight1:bolder;
+ $myfontweight2:bold;
+ $myfontfamily1:sans-serif;
+ $myfontfamily2:arial;
+ $mytextalign:center;
+
+ body{
+ 	margin: 30px; padding: 20px;
+
+ }
+
+div{
+.welcome-message{
+	font-family: $myfontfamily2;
+	font-size:30px;
+	font-weight:$myfontweight1;
+	text-align:$mytextalign;
+	
+}
+.poem{
+    margin: 60px; 
+    padding: 20px;
+    background-color: lightblue;
+}
+.heading1{
+    font-family: $myfontfamily2;
+    font-size:30px;
+    font-weight:$myfontweight1;
+    text-align:$mytextalign;
+}
+}
+p{
+.para1{
+    font-family: $myfontfamily1;
+    font-size: 20px;
+    font-weight: $myfontweight2;
+    text-align: justify;
+    
+}
+}
+ul {
+  list-style-type: bengali;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  background-color: transparent;
+}
+
+li {
+a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: all;
+  font-size: 20px;
+}
+
+/* Change the link color on hover */
+ a:hover {
+  background-color: #555;
+  color: white;
+}
+}
+
+#pic {
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+ 
+  margin-bottom: 50px;
+}
+table{
+ th, td {
+   text-align: $mytextalign; 
+}
+
+.table {
+   margin: auto;
+   width: 70% !important; 
+}
+}
